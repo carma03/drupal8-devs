@@ -1,0 +1,15 @@
+form_samples.admin_config_form_samples_base:
+  path: '/admin/config/form_samples/base'
+  defaults:
+    _title: 'Form Base Sample'
+    _form: '\Drupal\form_samples\Form\SampleBaseForm'
+  requirements:
+    _permission: 'access content'
+
+form_samples.settings:
+  path: '/admin/config/services/form_samples'
+  defaults:
+    _controller: '\Drupal\form_samples\Controller\FormSamplesController::settings'
+    _title: 'Form Samples settings'
+  requirements:
+    _permission: 'administer site configuration'
