@@ -1,7 +1,0 @@
-name: 'Form Samples of Form API'
-description: 'Demos of Form API'
-type: module
-# core: 8.x
-package: Custom
-version: '8.x-1.0'
-core: '8.x'
