@@ -1,0 +1,17 @@
+form_samples.admin_config_form_samples:
+  route_name: form_samples.admin_config_form_samples
+  parent: system.admin_config
+  title: Form Samples
+  weight: -10
+form_samples.admin_config_form_samples_settings:
+  route_name: form_samples.admin_config_form_samples_settings
+  parent: form_samples.admin_config_form_samples
+  title: Form Samples Settings
+  description: 'Demostration of a ConfigFormBase.'
+  weight: -9
+form_samples.admin_config_form_samples_demos:
+  route_name: form_samples.admin_config_form_samples_demos
+  parent: form_samples.admin_config_form_samples
+  title: Form Samples Demos
+  description: 'Display a list of Form demos.'
+
